@@ -19,6 +19,22 @@
             <h1 class="m-0">HID Remapper Configuration HANDI'ARCADE Joystick Arcade</h1>
         </div>
 
+Voici comment tu peux modifier la couleur des boutons pour qu'ils soient violets. Il suffit de changer la classe CSS qui définit leur couleur. Voici une mise à jour de ton code avec une classe personnalisée :
+
+html
+Copier le code
+<style>
+    .btn-violet {
+        background-color: #6f42c1; /* Violet Bootstrap */
+        border-color: #6f42c1;
+        color: white;
+    }
+    .btn-violet:hover {
+        background-color: #5a3791;
+        border-color: #5a3791;
+    }
+</style>
+
         <div class="row my-4">
             <div class="col">
                 <button id="open_device" type="button" class="btn btn-violet w-100">Ouvrir l'appareil</button>
